@@ -1,0 +1,136 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('img/Kingdom.jpeg');
+    min-height: 100vh; /* untuk atur ketinggiannya lebih leluasa */
+    background-size: cover;
+    background-position: center;
+}
+
+/* header-image START */
+.main-wrapper .header-image {
+    /* border: 2px solid yellow; */
+    margin-top: 30px;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+/* header-iamge END */
+
+.main-wrapper .h1-main-wrapper {
+    font-size: 36px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.main-wrapper .p-main-wrapper{
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.main-wrapper img {
+    /* object-fit: contain; */
+}
+
+.social-link {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 2px solid blue; */
+}
+
+/* instagram START */
+.instagram {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #131931;
+    gap: 5px;
+}
+
+.instagram p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+/* instagram END */
+
+/* pinterest START */
+.pinterest {
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #131931;
+    gap: 5px;
+}
+
+.pinterest p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300px;
+    color: white;
+}
+/* pinterest END */
+
+/* github START */
+.github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+    background-color: #131931;
+    gap: 5px;
+}
+
+.github p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300px;
+    color: white;
+}
+/* github END */
+
+/* details-footer START*/
+
+.details-footer {
+    display: flex;
+    gap: 10px;
+}
+
+.details-footer p {
+    font-family: 'inter', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+/* details-footer END */
+
+/* footer-two START */
+.footer-two p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+/* footer-two END */
